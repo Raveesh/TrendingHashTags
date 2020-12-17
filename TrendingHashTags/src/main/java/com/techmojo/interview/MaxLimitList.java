@@ -12,8 +12,6 @@ public class MaxLimitList<E> extends ArrayList<E> {
   }
 
   public boolean add(E e){
-    System.out.println("Adding in max list");
-    System.out.println("size = "+this.size()+" Max elements = "+MAX_LIMIT+" boolean "+(this.size() > MAX_LIMIT));
     if(this.size() >= MAX_LIMIT){
       return false;
     }
