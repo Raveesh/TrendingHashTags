@@ -43,7 +43,7 @@ public class TrendingTweetFinderTest {
     List<String> tweetList  = new ArrayList<>();
     String[] sampleHashTags = {"Java","C++","C","Haskell","Elixir","Golang","Swift","Groovy","Python",
         "Javascript","Nodejs","Ruby","Erlang"};
-    //We create a lot of tweets for Java and have very few tweets of Ruby and test that ruby doesnt appear
+    //We create a lot of tweets for Java and have very few tweets of Erlang and test that erlang doesnt appear
     //in the top 10
     for(int i=0;i<50;i++){
       tweetList.add("#"+sampleHashTags[0]+" is awesome");
